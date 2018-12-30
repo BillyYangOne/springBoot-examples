@@ -29,9 +29,9 @@
     <insert id="insert" parameterType="com.billy.entity.UserEntity" >
        INSERT INTO 
        		users
-       		(userName,passWord,user_sex) 
+       		(userName,passWord,user_sex,nick_name) 
        	VALUES
-       		(#{userName}, #{passWord}, #{userSex})
+       		(#{userName}, #{passWord}, #{userSex}, #{nickName})
     </insert>
     
     <update id="update" parameterType="com.billy.entity.UserEntity" >
