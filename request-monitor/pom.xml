@@ -16,7 +16,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<spring.version>4.3.2.RELEASE</spring.version>
+		<spring.version>6.0.0</spring.version>
 		<mybatis-spring.version>1.2.2</mybatis-spring.version>
 		<mybatis.version>3.4.5</mybatis.version>
 	</properties>
